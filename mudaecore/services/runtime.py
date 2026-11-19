@@ -586,7 +586,7 @@ def run_bot(
                     await safe_command_delay()
                     try:
                         await channel.send(
-                            f"{client.mudae_prefix}limroul 777 777 777 777"
+                            f"{client.mudae_prefix}limroul 777 777 777 777" # u can change this something like limroul 1 1 1 1
                         )
                         client.consecutive_rate_limits = 0
                     except discord.HTTPException as e:
