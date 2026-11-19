@@ -1,0 +1,45 @@
+import copy
+
+DEFAULTS = dict(
+    token="",
+    prefix="!",
+    mudae_prefix="$",
+    channel_id=0,
+    guild_id=None,
+    roll_command="wa",
+    min_kakera=0,
+    delay_seconds=0.0,
+    key_mode=False,
+    start_delay=0,
+    snipe_mode=False,
+    snipe_delay=2.0,
+    snipe_ignore_min_kakera_reset=False,
+    wishlist=[],
+    series_snipe_mode=False,
+    series_snipe_delay=3.0,
+    series_wishlist=[],
+    roll_speed=0.4,
+    kakera_snipe_mode=False,
+    kakera_snipe_threshold=0,
+    reactive_snipe_on_own_rolls=True,
+    rolling=True,
+    kakera_reaction_snipe_mode=False,
+    kakera_reaction_snipe_delay=0.75,
+    kakera_reaction_snipe_targets=[],
+    humanization_enabled=False,
+    humanization_window_minutes=40,
+    humanization_inactivity_seconds=5,
+    dk_power_management=False,
+    skip_initial_commands=False,
+    use_slash_rolls=False,
+    only_chaos=False,
+    reactive_snipe_delay=0.0,
+    auto_pokeslot=False,
+    pokeslot_interval_minutes=60,
+    auto_steal=False,
+    steal_delay=0.5,
+)
+
+
+def new_profile():
+    return copy.deepcopy(DEFAULTS)
