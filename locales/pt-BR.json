@@ -55,7 +55,7 @@
   "kakera_clicked": "Kakera coletado: {char_name}",
   "instance_crash": "Instância encerrada: {error}",
   "task_failed": "Tarefa {name} falhou: {error}",
-  "language_menu": "Selecione seu idioma / Select your language / Selecciona tu idioma\n\n[1] Português (Brasil)\n[2] English\n[3] Espanhol",
+  "language_menu": "Select your language\n\n[1] Português (Brasil)\n[2] English\n[3] Español",
   "language_prompt": "Selecione uma opção: ",
   "language_invalid": "Opção inválida. Escolha 1, 2 ou 3.",
   "exiting": "Encerrando MudaeCore...",
