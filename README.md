@@ -190,6 +190,7 @@ MudaeCore/
 │   └── title.txt
 ├── locales/
 │   ├── en.json
+│   ├── pt-BR.json
 │   └── es.json
 └── mudaecore/
     ├── cli.py
