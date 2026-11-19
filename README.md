@@ -10,6 +10,7 @@
 ![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20ES-9B7DC5?style=for-the-badge)
 ![Interface](https://img.shields.io/badge/Interface-Terminal-67527F?style=for-the-badge)
 ![Config](https://img.shields.io/badge/Config-JSON-AF91C8?style=for-the-badge&logo=json&logoColor=white)
+[![GitHub Stars](https://img.shields.io/github/stars/wintercraxker/MudaeCore?style=for-the-badge&logo=github&logoColor=white&color=9B7DC5)](https://github.com/wintercraxker/MudaeCore/stargazers)
 </div>
 
 ---
