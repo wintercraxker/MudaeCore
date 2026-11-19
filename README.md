@@ -7,9 +7,10 @@
 
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-7556A6?style=for-the-badge)
-![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20ES-9B7DC5?style=for-the-badge)
+![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20ES%20%7C%20PT--BR-9B7DC5?style=for-the-badge)
 ![Interface](https://img.shields.io/badge/Interface-Terminal-67527F?style=for-the-badge)
 ![Config](https://img.shields.io/badge/Config-JSON-AF91C8?style=for-the-badge&logo=json&logoColor=white)
+[![GitHub Stars](https://img.shields.io/github/stars/wintercraxker/MudaeCore?style=for-the-badge&logo=github&logoColor=white&color=9B7DC5)](https://github.com/wintercraxker/MudaeCore/stargazers)
 </div>
 
 ---
@@ -31,7 +32,7 @@ It brings together character and series wishlists, configurable thresholds, inde
 - **Custom Presets** — Maintain independent configuration profiles.
 - **Multiple Profiles** — Manage different profiles from the terminal menu.
 - **Activity Logs** — Follow events through organized, terminal-formatted messages.
-- **Bilingual Interface** — English and Spanish support.
+- **Multilingual Interface** — English, Spanish, and Brazilian Portuguese support.
 
 ## 〢 📋 Requirements
 
@@ -81,7 +82,7 @@ On Windows, start MudaeCore with `start.bat`, or run `python bot.py` manually fr
 
 The general flow is:
 
-1. MudaeCore starts and asks you to select English or Spanish.
+1. MudaeCore starts and asks you to select English, Spanish, or Brazilian Portuguese.
 2. The main menu appears.
 3. Open **Configuration**.
 4. Create a new preset or select an existing one.

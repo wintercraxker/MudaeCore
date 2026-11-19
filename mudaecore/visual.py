@@ -372,7 +372,11 @@ def choose_language(menu_text, prompt, invalid):
         question = inquirer.List(
             "language",
             message=menu_text.splitlines()[0],
-            choices=[("Espanol", "1"), ("English", "2")],
+            choices=[
+                ("Português (Brasil)", "1"),
+                ("English", "2"),
+                ("Español", "3"),
+            ],
         )
         answer = inquirer.prompt(
             [question],
@@ -388,7 +392,11 @@ def choose_language(menu_text, prompt, invalid):
         lines[:1] = lines[0].split(" / ")
     for line in lines:
         marker = (
-            "> " if line.startswith("[1]") else "  " if line.startswith("[2]") else ""
+            "> "
+            if line.startswith("[1]")
+            else "  "
+            if line.startswith("[2]") or line.startswith("[3]")
+            else ""
         )
         menu.append(paint(marker + line, PALETTE[1] if marker else PALETTE[-1]))
     menu += ["", ""]

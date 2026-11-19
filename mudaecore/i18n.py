@@ -1,5 +1,3 @@
-"""Shared translations for the current process."""
-
 import json
 from pathlib import Path
 import threading
@@ -16,17 +14,18 @@ def _load_catalog(language):
         return json.load(source)
 
 
-_catalogs = {"en": _load_catalog("en")}
-try:
-    _catalogs["es"] = _load_catalog("es")
-except (OSError, ValueError):
-    _catalogs["es"] = {}
+_catalogs = {}
+for _locale in ("en", "es", "pt-BR"):
+    try:
+        _catalogs[_locale] = _load_catalog(_locale)
+    except (OSError, ValueError):
+        _catalogs[_locale] = {}
 
 
 def set_language(language=None):
     global _language
     with _lock:
-        _language = language if language in ("es", "en") else "es"
+        _language = language if language in ("es", "en", "pt-BR") else "es"
 
 
 def get_language():
@@ -88,7 +87,7 @@ def select_language():
     selection = choose_language(
         t("language_menu"), t("language_prompt"), t("language_invalid")
     )
-    set_language("es" if selection == "1" else "en")
+    set_language({"1": "pt-BR", "2": "en", "3": "es"}.get(selection, "es"))
     clear_terminal()
 
 
