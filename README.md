@@ -1,7 +1,7 @@
 <div align="center">
 
 # <img src="img/mudaecore.png" alt="MudaeCore Terminal Preview" width="550">
-<img src="img/mudaeterminal.png" alt="MudaeCore Terminal Preview" width="900">
+<img src="img/mudaeterminalv2.png" alt="MudaeCore Terminal Preview" width="900">
 
 *Character Tracking · Kakera Management · Wishlist Support · Custom Presets*
 
