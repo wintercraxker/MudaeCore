@@ -226,6 +226,16 @@ MudaeCore/
 | Missing artwork | A required asset file is missing. | Verify that the `assets/` directory is complete. |
 | Save error | The file changed externally or cannot be written. | Close other editors, check permissions, and retry saving. |
 
+## 〢 ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=wintercraxker%2Fmudaecore&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=wintercraxker/mudaecore&type=date&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=wintercraxker/mudaecore&type=date&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=wintercraxker/mudaecore&type=date&legend=bottom-right" />
+ </picture>
+</a>
+
 ## 〢 📜 Disclaimer
 
 MudaeCore is independent of Discord and Mudae and is not endorsed or authorized by either service. Use the project only in ways consistent with the applicable terms and platform rules.
