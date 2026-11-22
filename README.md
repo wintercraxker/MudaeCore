@@ -1,7 +1,30 @@
+
 <div align="center">
 
-# <img src="img/mudaeheader.png" alt="MudaeCore Terminal Preview" width="650">
-<img src="img/mudaecore-demo.gif" alt="MudaeCore Terminal Demo" width="900">
+  <img src="img/mudaeheader.png" alt="MudaeCore" width="650">
+
+</div>
+
+---
+
+<div align="center">
+  <p>
+    <strong>MudaeCore — Your Mudae experience, under one command.</strong><br>
+    A terminal-based Mudae companion for character tracking, Kakera management, wishlists, and custom presets.
+  </p>
+  
+  <p>
+    <a href="#about">About</a> ·
+    <a href="#features">Features</a> ·
+    <a href="#installation">Installation</a> ·
+    <a href="#getting-started">Getting Started</a> ·
+    <a href="#configuration">Configuration</a> ·
+    <a href="#presets">Presets</a>
+  </p>
+
+  <img src="img/mudaecore-demo.gif" alt="MudaeCore Terminal Demo" width="900">
+
+</div>
 
 *Character Tracking · Kakera Management · Wishlist Support · Custom Presets*
 
@@ -15,6 +38,8 @@
 
 ---
 
+<a id="about"></a>
+
 ## 〢 💭 What is MudaeCore?
 
 **MudaeCore** is an automated Mudae companion for Discord, designed to help users organize character preferences, monitor rolls and claim availability, track Kakera-related activity, and manage multiple configuration profiles.
@@ -22,6 +47,8 @@
 It brings together character and series wishlists, configurable thresholds, independent presets, terminal menus, and activity monitoring.
 
 > **Disclaimer:** MudaeCore is an independent community project and is not affiliated with, endorsed by, or officially authorized by Discord or Mudae. Automated user accounts may violate Discord's Terms of Service.
+
+<a id="features"></a>
 
 ## 〢 ✨ Features
 
@@ -41,6 +68,8 @@ It brings together character and series wishlists, configurable thresholds, inde
 - **Terminal:** A terminal capable of interactive keyboard input and UTF-8 output is required. ANSI color support is optional.
 - **Python packages:** `discord.py` and `inquirer` are imported directly. Their dependencies must be installed with them.
 - **Required project files:** `bot.py`, `mudaecore/`, `assets/`, and `locales/`. Runtime configuration is read from `presets.json`.
+
+<a id="installation"></a>
 
 ## 〢 📦 Installation
 
@@ -76,6 +105,8 @@ python -m pip install -r requirements.txt
 python bot.py
 ```
 
+<a id="getting-started"></a>
+
 ## 〢 🚀 Getting Started
 
 On Windows, start MudaeCore with `start.bat`, or run `python bot.py` manually from the activated environment.
@@ -91,6 +122,8 @@ The general flow is:
 7. Return to the main menu and use the available start options.
 
 The preset credential prompt is optional. A preset without a valid credential or token is not started.
+
+<a id="configuration"></a>
 
 ## 〢 ⚙️ Configuration
 
@@ -123,6 +156,8 @@ The editor supports:
 These options are independent boolean fields. Activating one does not activate or deactivate another.
 
 When saving, MudaeCore checks that the file has not changed externally since the editor was opened. A temporary file is synchronized and atomically replaces the original only after validation succeeds.
+
+<a id="presets"></a>
 
 ## 〢 👥 Preset Management
 
