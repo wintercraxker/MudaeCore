@@ -26,15 +26,26 @@
 
 </div>
 
-*Character Tracking · Kakera Management · Wishlist Support · Custom Presets*
 
-[![Python](https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-7556A6?style=for-the-badge)
-![Languages](https://img.shields.io/badge/Languages-EN%20%7C%20ES%20%7C%20PT--BR-9B7DC5?style=for-the-badge)
-![Interface](https://img.shields.io/badge/Interface-Terminal-67527F?style=for-the-badge)
-![Config](https://img.shields.io/badge/Config-JSON-AF91C8?style=for-the-badge&logo=json&logoColor=white)
-[![GitHub Stars](https://img.shields.io/github/stars/wintercraxker/MudaeCore?style=for-the-badge&logo=github&logoColor=white&color=9B7DC5)](https://github.com/wintercraxker/MudaeCore/stargazers)
+<div align="center">
+  <p>
+    <em>Character Tracking · Kakera Management · Wishlist Support · Custom Presets</em>
+  </p>
+
+  <p>
+    <a href="https://www.python.org/">
+      <img src="https://img.shields.io/badge/Python-3.14-3776AB?style=for-the-badge&logo=python&logoColor=white">
+    </a>
+    <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-7556A6?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Languages-EN%20%7C%20ES%20%7C%20PT--BR-9B7DC5?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Interface-Terminal-67527F?style=for-the-badge">
+    <img src="https://img.shields.io/badge/Config-JSON-AF91C8?style=for-the-badge&logo=json&logoColor=white">
+    <a href="https://github.com/wintercraxker/MudaeCore/stargazers">
+      <img src="https://img.shields.io/github/stars/wintercraxker/MudaeCore?style=for-the-badge&logo=github&logoColor=white&color=9B7DC5">
+    </a>
+  </p>
 </div>
+
 
 ---
 
