@@ -282,6 +282,14 @@ MudaeCore/
  </picture>
 </a>
 
+## 〢 🤝 Credits
+
+MudaeCore is based on [MudaRemote](https://github.com/misutesu-desu/MudaRemote), originally developed by [misutesu-desu](https://github.com/misutesu-desu).
+
+## 〢 📄 License
+
+MudaRemote is licensed under the MIT License. See [LICENSE](LICENSE) for the original copyright and license notice.
+
 ## 〢 📜 Disclaimer
 
 MudaeCore is independent of Discord and Mudae and is not endorsed or authorized by either service. Use the project only in ways consistent with the applicable terms and platform rules.
